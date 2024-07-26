@@ -1,0 +1,12 @@
+{
+  "name": "@straico/utils",
+  "version": "1.0.0",
+  "description": "The package containing some utility functions",
+  "main": "./src/index.ts",
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "imports": {
+    "#*": "./*"
+  }
+}

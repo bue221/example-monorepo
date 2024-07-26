@@ -1,0 +1,13 @@
+{
+  "name": "@straico/ui",
+  "version": "1.0.0",
+  "description": "package to contains all the ui components and configurations styles",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "scripts": {
+    "lint": "eslint *.ts*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

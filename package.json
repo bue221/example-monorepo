@@ -1,0 +1,24 @@
+{
+  "name": "straico",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "eslint": "^9.7.0",
+    "eslint-config-turbo": "^2.0.9",
+    "ts-node": "^10.9.1",
+    "turbo": "^2.0.9"
+  },
+  "packageManager": "pnpm@9.6.0",
+  "dependencies": {
+    "typescript": "^5.5.4"
+  }
+}
