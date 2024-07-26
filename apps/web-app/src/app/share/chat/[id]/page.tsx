@@ -60,6 +60,9 @@ export default async function ShareChat({
           <strong>Shared chat • Models: </strong> {data.modelList.join(", ")}
         </h1>
       </div>
+      <div>
+        <pre>{JSON.stringify(data, null, 2)}</pre>
+      </div>
     </div>
   );
 }
