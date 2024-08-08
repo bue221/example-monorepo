@@ -7,8 +7,8 @@
   ],
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build:frontend": "turbo build --workspace=web-app"
+    "build:frontend": "turbo build --workspace=web-app",
+    "dev": "turbo dev"
   },
   "license": "ISC",
   "devDependencies": {
@@ -20,6 +20,7 @@
   },
   "packageManager": "pnpm@9.6.0",
   "dependencies": {
+    "react-icons": "^5.2.1",
     "typescript": "^5.5.4"
   }
 }
